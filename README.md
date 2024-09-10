@@ -30,7 +30,7 @@ Your script executor must support the following filesystem functions in order fo
 You can load this library into your script's environment by copying the code below.
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvk777/Config-Library/main/Main.lua?token=GHSAT0AAAAAACXIOVKE37XK6NXIAG67GP42ZW74F3A"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvk777/Config-Library/main/Main.lua?token=GHSAT0AAAAAACXIOVKFPUAULXIXGKZSACIAZW74VDQ"))()
 ```
 
 # 📑Documentation
@@ -193,7 +193,7 @@ Output:
 # 📝Examples
 ### Saving a configuration:
 ```lua
-local Library = loadstring(game:https://raw.githubusercontent.com/Lvk777/Config-Library/main/Main.lua?token=GHSAT0AAAAAACXIOVKE37XK6NXIAG67GP42ZW74F3A"))()
+local Library = loadstring(game:"https://raw.githubusercontent.com/Lvk777/Config-Library/main/Main.lua?token=GHSAT0AAAAAACXIOVKFPUAULXIXGKZSACIAZW74VDQ"))()
 
 local ESP_Settings = {
   TextColor = Color3.fromRGB(255, 0, 0),
@@ -209,7 +209,7 @@ Library:SaveConfig("My Cool Hub/Config.json", ESP_Settings)
 
 ### Loading a configuration:
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvk777/Config-Library/main/Main.lua?token=GHSAT0AAAAAACXIOVKE37XK6NXIAG67GP42ZW74F3A"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvk777/Config-Library/main/Main.lua?token=GHSAT0AAAAAACXIOVKFPUAULXIXGKZSACIAZW74VDQ"))()
 
 local ESP_Settings = {}
 
